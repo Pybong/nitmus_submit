@@ -25,7 +25,7 @@ def search_list ( number ) :
 def save_followernum (followernum, instaid ) :
 
     # DB 연결
-    conn = pymysql.connect(host='localhost', user='root', password='qwe123',
+    conn = pymysql.connect(host='localhost', user='root', password='',
                             db = 'instagram', charset = 'utf8' )
     curs = conn.cursor()
 
@@ -43,7 +43,7 @@ def save_followernum (followernum, instaid ) :
 def arrange_id() :
 
     # DB 연결
-    conn = pymysql.connect(host='localhost', user='root', password='qwe123',
+    conn = pymysql.connect(host='localhost', user='root', password='',
                             db = 'instagram', charset = 'utf8' )
     curs = conn.cursor()
 
@@ -58,7 +58,7 @@ def arrange_id() :
 
 def save_followid ( instaid ) :
     # DB 연결
-    conn = pymysql.connect(host='localhost', user='root', password='qwe123',
+    conn = pymysql.connect(host='localhost', user='root', password='',
                             db = 'instagram', charset = 'utf8' )
     curs = conn.cursor()
 
