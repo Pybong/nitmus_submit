@@ -22,9 +22,9 @@ login[0].click()
 
 # 로그인 페이지 접속
 uid = driver2.find_element_by_name("username")
-uid.send_keys('bbbongerrr')
+uid.send_keys('b')
 upw = driver2.find_element_by_name("password")
-upw.send_keys('qhdtjr66')
+upw.send_keys('')
 time.sleep(2)
 
 # 로그인 크릭
